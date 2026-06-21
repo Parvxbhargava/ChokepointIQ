@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.pnpm-store/
+.agents/
+
+.env
+.env.local
+.env.*.local
+
+dataset/*.csv
+*.log
+
+.DS_Store
+Thumbs.db

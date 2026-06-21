@@ -1,0 +1,29 @@
+{
+  "name": "chokepointiq",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "backend": "node server/timeServer.mjs",
+    "dev:full": "node server/devFull.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.468.0",
+    "papaparse": "^5.4.1",
+    "postcss": "^8.4.49",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "recharts": "^2.13.3",
+    "tailwindcss": "^3.4.15"
+  },
+  "devDependencies": {
+    "vite": "^6.0.3"
+  }
+}
